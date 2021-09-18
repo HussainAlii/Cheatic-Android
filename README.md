@@ -8,16 +8,44 @@
   <br />
     <a href="https://play.google.com/store/apps/details?id=com.hostile.cheatic">View app</a>
 
+ 
+ <!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about">About The Project</a>
+      <ul>
+        <li><a href="#built_with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#overall_Outcomes">Overall Outcomes/Achievements</a></li>
+    <li>
+      <a href="#how_it_works">How it works</a>
+      <ul>
+        <li><a href="#create_classification_model">Using Python to create classification model</a></li>
+        <li><a href="#detection_process">Object detection process</a></li>
+        <li><a href="#sudoku_code">Sudoku algorithm</a></li>
+        <li><a href="#tic_tac_toe_code">Tic-Tac-Toe algorithm</a></li>
+        <li><a href="#images">Images</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<a name="about"/>
 
+## About The Project
+  
 A puzzle solver app which uses computer vision technology to distingue puzzle games and uses AI that is built using minimax and backtracking algorithms to solve them.
   <div>
     <img src="images/tic-tac-toe/tic-tac-toe.jpg" alt="sudoku Result"  width="220" height="520px">
     <img src="images/sudoku/sudoku.jpg" alt="sudoku Result"  width="220" height="520px">
   </div>
   
+<a name="built_with"/>  
+
 ### Built With
 
 * [Kotlin](https://kotlinlang.org)
@@ -26,8 +54,10 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
 * [ML Kit-tools](https://developers.google.com/ml-kit)
 * [Python](https://www.python.org)
 
+<a name="overall_Outcomes"/>  
 
-    <!-- Outcomes -->
+<!-- Outcomes -->
+
 ## Overall Outcomes/Achievements
   
   1. Solving Sudoku game by using backtracking algorithm.    
@@ -35,9 +65,12 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
   2. Solving Tic-Tac-Toe game by using minimax algorithm.
   
   3. Provide User friendly interface design.
-  
+
+<a name="how_it_works"/>  
+
 ## How it works
   <div>
+  <a name="create_classification_model"/>
   <summary>Using Python to create classification model:</summary>
   <ol>
     <li>
@@ -70,7 +103,10 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
     <li><p><a target="_blank" href="https://teachablemachine.withgoogle.com"> Using machine leaning tools to train the data and generate tflite file.</a></p></li>
     <li><p>Classification model embedded into the app to recognize objects.</p></li>
   </ol>
-  <summary>Object detection in a puzzle:</summary>
+  
+  <a name="detection_process"/>  
+  
+  <summary>Object detection process:</summary>
   
   1. Capture data from the camera.
   
@@ -81,6 +117,8 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
   4. Detect object.
   
   5. Use smart algorithm to solve it.
+  
+  <a name="sudoku_code"/>  
    
   <summary>Sudoku algorithm:</summary>
   
@@ -104,6 +142,8 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
         }
         return false // Board can not be solved!
     }
+  
+  <a name="tic_tac_toe_code"/> 
   
   <summary>Tic-Tac-Toe algorithm:</summary>
        
@@ -144,9 +184,12 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
             return bestScore
         }
     }
-      
+     
   <br>
   <br>
+  
+  <a name="images"/>  
+  
   <img src="images/sudoku/sudoku_detection.gif" alt="sudoku detection"  width="220" height="520px">
   <img src="images/sudoku/sudokuResult.jpg" alt="sudoku Result"  width="220" height="520px">
   <img src="images/sudoku/solve_sudoku.jpg" alt="solve sudoku"  width="220" height="520px">
