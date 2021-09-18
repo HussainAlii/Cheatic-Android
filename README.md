@@ -26,13 +26,15 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
     <!-- Outcomes -->
 ## Overall Outcomes/Achievements
   
-  1. Solving Sudoku game.    
+  1. Solving Sudoku game by using backtracking algorithm.    
   
-  2. Solving Tic-Tac-Toe game.
+  2. Solving Tic-Tac-Toe game by using minimax algorithm.
   
-### How it works
+  3. Provide User friendly interface design.
+  
+## How it works
   <div>
-  <summary>Using Python to generate positive and negative images:</summary>
+  <summary>Using Python to create classification model:</summary>
   <ol>
     <li>
       <p>Before the training, we start by collect hundreds of images that are divided into two sections, Positive and negative images.</p>
@@ -41,7 +43,19 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
         <li>negative images are images that do not contain the object of interest (better to include images that are somehow related to the object environment but not the object itself).</li>
       </ul>
     </li>
-    <li><p>After gathering a good amount of images using python, we clean up the data by cropping each image if needed and then, resizing them into (210 X 210) which is a perfect size to detect an object from the camera. After that, convert them into grayscale and finally, rename them in ascending order.</p></li>
+    <li>
+      <p>After gathering a good amount of images, we clean up the data.</p>
+      <ul>
+        <li>Cropping each image if needed.</li>
+        <li>Resizing each image into (210 X 210) which is a perfect size to detect an object from the camera.</li>
+        <li>Converting each image into grayscale.</li>
+        <li>Renaming each image in an ascending order.</li>
+      </ul>
+    </li>
+    <img src="images/p.jpg">
+    <img src="images/n.jpg">
+    <li><p><a target="_blank" href="https://teachablemachine.withgoogle.com"> Using machine leaning tools to train the data and generate tflite file.</a></p></li>
+    <li><p>Classification model embedded into the app to recognize objects.</p></li>
   </ol>
   
     
