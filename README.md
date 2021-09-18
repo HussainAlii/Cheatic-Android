@@ -20,7 +20,7 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
 * [OpenCV](https://opencv.org)
 * [TensorFlow-tools](https://www.tensorflow.org)
 * [ML Kit-tools](https://developers.google.com/ml-kit)
-
+* [Python](https://www.python.org)
 
 
     <!-- Outcomes -->
@@ -34,7 +34,19 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
   
 ## How it works
   
-  1. Detect objects and capture data from the camera.
+  ### Sudoku:
+  
+    1. Detect objects and capture data from the camera.
 
 
-  2. Use smart algorithem to process the data and solve it.
+
+    2. Use smart algorithem to process the data and solve it.
+  
+    
+  ### Tic-Tac-Toe:
+  
+    1. Detect objects and capture data from the camera.
+
+
+
+    2. Use smart algorithem to process the data and solve it.
