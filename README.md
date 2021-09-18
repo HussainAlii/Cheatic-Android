@@ -26,13 +26,26 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
     <!-- Outcomes -->
 ## Overall Outcomes/Achievements
   
-  1. Solving Sudoku game with android camera.
+  1. Solving Sudoku game.    
+  
+  2. Solving Tic-Tac-Toe game.
+  
+### How it works
+  <div>
+  <summary>Using Python to generate positive and negative images:</summary>
+  <ol>
+    <li>
+      <p>Before the training, we start by collect hundreds of images that are divided into two sections, Positive and negative images.</p>
+      <ul>
+        <li>positive images are images that contain the object of interest.</li>
+        <li>negative images are images that do not contain the object of interest (better to include images that are somehow related to the object environment but not the object itself).</li>
+      </ul>
+    </li>
+    <li><p>After gathering a good amount of images using python, we clean up the data by cropping each image if needed and then, resizing them into (210 X 210) which is a perfect size to detect an object from the camera. After that, convert them into grayscale and finally, rename them in ascending order.</p></li>
+  </ol>
+  
     
-    * 
-  
-  2. Solving Tic-Tac-Toe game with android camera.
-  
-## How it works
+</div>
   
   ### Sudoku:
   
