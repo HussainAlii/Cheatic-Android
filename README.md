@@ -26,11 +26,11 @@ A puzzle solver app which uses computer vision technology to distingue puzzle ga
     <!-- Outcomes -->
 ## Overall Outcomes/Achievements
   
-  1. Solve Sudoku game using android camera.
+  1. Solving Sudoku game with android camera.
     
     * 
   
-  2. Solve Tic-Tac-Toe game using android camera.
+  2. Solving Tic-Tac-Toe game with android camera.
   
 ## How it works
   
